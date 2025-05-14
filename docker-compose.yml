@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  spark:
+    build: .
+    container_name: spark-app
+    ports:
+      - "4040:4040"        # Spark UI
+    volumes:
+      - ./app:/app         # Pour accéder à main.py et Data3.csv depuis le conteneur
+    working_dir: /app      # Répertoire de travail dans le conteneur
+    command: ["python3", "main.py"]
