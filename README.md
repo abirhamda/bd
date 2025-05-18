@@ -44,4 +44,4 @@ Voici une capture d’écran de l’exécution de `main.py`, qui entraîne un mo
 
 Voici la prédiction faite via `predict.py`, en utilisant un PipelineModel rechargé :
 
-![Prédiction du modèle]("C:\Users\Abir\Desktop\capture-predict.png")
+![Prédiction du modèle](images/capture-main.png)
